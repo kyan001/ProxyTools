@@ -1,4 +1,6 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
+version = "1.0.0"
+
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
 arg = ""  # Rule Argument
