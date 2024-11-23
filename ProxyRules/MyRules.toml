@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.0.0"
+version = "1.1.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -374,6 +374,10 @@ desc = "For Star Citizen"
 
 [[rules]]
 arg = "scorg.tools"
+desc = "For Star Citizen"
+
+[[rules]]
+arg = "ccugame.app"
 desc = "For Star Citizen"
 
 # Game::Blizzard

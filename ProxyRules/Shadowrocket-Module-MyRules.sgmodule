@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-!version=1.0.0
+!version=1.1.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -81,6 +81,7 @@ DOMAIN-SUFFIX, play.sc, PROXY  # For Star Citizen
 DOMAIN-SUFFIX, starcitizen.tools, PROXY  # For Star Citizen Wiki
 DOMAIN-SUFFIX, sc-trade.tools, PROXY  # For Star Citizen
 DOMAIN-SUFFIX, scorg.tools, PROXY  # For Star Citizen
+DOMAIN-SUFFIX, ccugame.app, PROXY  # For Star Citizen
 DOMAIN-SUFFIX, d2jsp.org, PROXY  # For Diablo 2
 DOMAIN-SUFFIX, maxroll.gg, PROXY  # For Diablo/Last Epoch
 DOMAIN-SUFFIX, planner-assets.com, PROXY  # For Diablo
