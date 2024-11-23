@@ -36,9 +36,10 @@ payload:
   - DOMAIN-SUFFIX,tiktok.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,tiktokcdn.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,xmanhua.com  # BLOCKED!
-  - DOMAIN-KEYWORD,missa
-  - DOMAIN-SUFFIX,surrit.com  # For missa
-  - DOMAIN-SUFFIX,p5yy.com  # BLOCKED!
+  - DOMAIN-KEYWORD,issa
+  - DOMAIN-SUFFIX,urri  # For issa
+  - DOMAIN-KEYWORD,5yy  # BLOCKED!
+  - DOMAIN-KEYWORD,ingpinz  # BLOCKED! For 5yy
   - DOMAIN-SUFFIX,x.com  # BLOCKED! For Twitter
   - DOMAIN-SUFFIX,tomtoc.com  # BLOCKED! For Tomtoc
   - IP-CIDR,13.107.21.0/8  # BLOCKED! For Bing AI
@@ -79,6 +80,7 @@ payload:
   - DOMAIN-SUFFIX,sc-trade.tools  # For Star Citizen
   - DOMAIN-SUFFIX,scorg.tools  # For Star Citizen
   - DOMAIN-SUFFIX,ccugame.app  # For Star Citizen
+  - DOMAIN-SUFFIX,erkul.games  # BLOCKED! For Star Citizen
   - DOMAIN-SUFFIX,d2jsp.org  # For Diablo 2
   - DOMAIN-SUFFIX,maxroll.gg  # For Diablo/Last Epoch
   - DOMAIN-SUFFIX,planner-assets.com  # For Diablo

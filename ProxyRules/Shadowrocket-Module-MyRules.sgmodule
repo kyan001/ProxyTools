@@ -39,9 +39,10 @@ DOMAIN-SUFFIX, archive.mozilla.org, PROXY  # For Firefox
 DOMAIN-SUFFIX, tiktok.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, tiktokcdn.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, xmanhua.com, PROXY  # BLOCKED!
-DOMAIN-KEYWORD, missa, PROXY
-DOMAIN-SUFFIX, surrit.com, PROXY  # For missa
-DOMAIN-SUFFIX, p5yy.com, PROXY  # BLOCKED!
+DOMAIN-KEYWORD, issa, PROXY
+DOMAIN-SUFFIX, urri, PROXY  # For issa
+DOMAIN-KEYWORD, 5yy, PROXY  # BLOCKED!
+DOMAIN-KEYWORD, ingpinz, PROXY  # BLOCKED! For 5yy
 DOMAIN-SUFFIX, x.com, PROXY  # BLOCKED! For Twitter
 DOMAIN-SUFFIX, tomtoc.com, PROXY  # BLOCKED! For Tomtoc
 IP-CIDR, 13.107.21.0/8, PROXY  # BLOCKED! For Bing AI
@@ -82,6 +83,7 @@ DOMAIN-SUFFIX, starcitizen.tools, PROXY  # For Star Citizen Wiki
 DOMAIN-SUFFIX, sc-trade.tools, PROXY  # For Star Citizen
 DOMAIN-SUFFIX, scorg.tools, PROXY  # For Star Citizen
 DOMAIN-SUFFIX, ccugame.app, PROXY  # For Star Citizen
+DOMAIN-SUFFIX, erkul.games, PROXY  # BLOCKED! For Star Citizen
 DOMAIN-SUFFIX, d2jsp.org, PROXY  # For Diablo 2
 DOMAIN-SUFFIX, maxroll.gg, PROXY  # For Diablo/Last Epoch
 DOMAIN-SUFFIX, planner-assets.com, PROXY  # For Diablo
