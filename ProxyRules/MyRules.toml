@@ -180,16 +180,22 @@ blocked = true
 
 [[rules]]
 type = "DOMAIN-KEYWORD"
-arg = "missa"
+arg = "issa"
 
 [[rules]]
-arg = "surrit.com"
-desc = "For missa"
+arg = "urri"
+desc = "For issa"
 
 [[rules]]
-type = "DOMAIN-SUFFIX"
-arg = "p5yy.com"
+type = "DOMAIN-KEYWORD"
+arg = "5yy"
 blocked = true
+
+[[rules]]
+type = "DOMAIN-KEYWORD"
+arg = "ingpinz"
+blocked = true
+desc = "For 5yy"
 
 [[rules]]
 arg = "x.com"
@@ -379,6 +385,11 @@ desc = "For Star Citizen"
 [[rules]]
 arg = "ccugame.app"
 desc = "For Star Citizen"
+
+[[rules]]
+arg = "erkul.games"
+desc = "For Star Citizen"
+blocked = true
 
 # Game::Blizzard
 [[rules]]
