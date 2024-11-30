@@ -69,7 +69,7 @@ class RuleSet:
         result = [
             "#!name=ShadowRocket My Rules",
             "#!desc=ShadowRocket My Rules",
-            f"!version={self.version}",
+            f"#!version={self.version}",
             "",
             "[Rule]"
         ]

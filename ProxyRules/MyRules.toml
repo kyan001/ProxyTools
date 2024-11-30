@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.1.0"
+version = "1.2.1"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -388,6 +388,11 @@ desc = "For Star Citizen"
 
 [[rules]]
 arg = "erkul.games"
+desc = "For Star Citizen"
+blocked = true
+
+[[rules]]
+arg = "uexcorp.space"
 desc = "For Star Citizen"
 blocked = true
 
