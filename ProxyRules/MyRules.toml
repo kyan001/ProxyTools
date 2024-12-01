@@ -207,6 +207,11 @@ arg = "tomtoc.com"
 blocked = true
 desc = "For Tomtoc"
 
+[[rules]]
+arg = "bsky.app"
+blocked = true
+desc = "For Bluesky Social"
+
 # General::AI
 [[rules]]
 type = "IP-CIDR"
