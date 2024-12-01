@@ -10,6 +10,7 @@ import consolecmdtools as cct
 RULES_FILE = "MyRules.toml"
 CLASH_RULESET_FILENAME = "Clash-Rules-MyRules.yaml"
 SHADOWROCKET_MODULE_FILENAME = "Shadowrocket-Module-MyRules.sgmodule"
+DIST_DIR = "dist"
 
 
 class RuleSet:
@@ -96,7 +97,7 @@ class RuleSet:
             filepath = os.path.join(current_dir, path.basename)
             with open(tmp_filepath, "wt", encoding='utf-8') as tmp_file:
                 tmp_file.write(content)
-            cct.move_file(tmp_filepath, filepath)
+            cct.move_file(tmp_filepath, filepath, ensure=True)
             cit.info(f"File saved to {filepath}")
         return True
 
@@ -110,12 +111,12 @@ def main():
     rules.from_toml(rules_path)
     # Clash
     cit.title("Generate Clash Yaml File")
-    clash_ruleset_path = os.path.join(current_dir, CLASH_RULESET_FILENAME)
+    clash_ruleset_path = os.path.join(current_dir, DIST_DIR, CLASH_RULESET_FILENAME)
     clash_ruleset = rules.to_clash_ruleset()
     rules.save_to_file(clash_ruleset, clash_ruleset_path)
     # ShadowRocket
     cit.title("Generate ShadowRocket sgmodule File")
-    shadowrocket_module_path = os.path.join(current_dir, SHADOWROCKET_MODULE_FILENAME)
+    shadowrocket_module_path = os.path.join(current_dir, DIST_DIR, SHADOWROCKET_MODULE_FILENAME)
     shadowrocket_module = rules.to_shadowrocket_module()
     rules.save_to_file(shadowrocket_module, shadowrocket_module_path)
 
