@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'ProxyRules/MyRules.toml'
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
