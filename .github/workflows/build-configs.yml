@@ -24,7 +24,5 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run Build Script
         run: python ProxyRules/update_from_myrules.py --no-pause
-      - run: |
-          git status
       - name: Commit all changed files back to the repository
         uses: stefanzweifel/git-auto-commit-action@v5

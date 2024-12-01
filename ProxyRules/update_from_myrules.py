@@ -10,7 +10,7 @@ import consolecmdtools as cct
 RULES_FILE = "MyRules.toml"
 CLASH_RULESET_FILENAME = "Clash-Rules-MyRules.yaml"
 SHADOWROCKET_MODULE_FILENAME = "Shadowrocket-Module-MyRules.sgmodule"
-DIST_DIR = "dist"
+DIST_DIR = "autogen"
 
 
 class RuleSet:
