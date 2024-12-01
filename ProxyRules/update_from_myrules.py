@@ -123,6 +123,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print(sys.argv)
     if "--no-pause" not in sys.argv:
         cit.pause()
