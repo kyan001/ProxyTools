@@ -23,5 +23,5 @@ jobs:
       - name: Run Build Script
         run: |
           echo "Building Start"
-          python ProxyRules/update_from_myrules.py
+          python ProxyRules/update_from_myrules.py --no-pause
           echo "Building Complete"

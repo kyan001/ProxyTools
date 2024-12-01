@@ -1,5 +1,6 @@
 #! .venv/bin/python
 import os
+import sys
 import tempfile
 import tomllib
 
@@ -121,4 +122,5 @@ def main():
 
 if __name__ == "__main__":
     main()
-    cit.pause()
+    if "--no--pause" not in sys.argv:
+        cit.pause()
