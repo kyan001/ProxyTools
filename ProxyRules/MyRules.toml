@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.2.3"
+version = "1.2.4"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -369,7 +369,7 @@ desc = "For Nintendo"
 arg = "sendou.ink"
 desc = "For Splatoon"
 
-[[ruoles]]
+[[rules]]
 arg = "nookea.com"
 blocked = true
 desc = "For Animal Crossing"
