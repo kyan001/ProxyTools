@@ -9,6 +9,7 @@ blocked = false  # Blocked by GFW
 redirected = false  # Redirected by GFW
 desc = ""  # Description
 
+
 # General::Information
 [[rules]]
 arg = "google.com"
@@ -42,6 +43,7 @@ desc = "For Bing"
 arg = "bingapis.com"
 blocked = true
 desc = "For Bing"
+
 
 # General::Note Taking
 [[rules]]
@@ -90,6 +92,7 @@ desc = "For 1Password"
 arg = "calibre-ebook.com"
 desc = "For Calibre"
 
+
 # General::Cloud
 [[rules]]
 arg = "amazonaws.com"
@@ -113,6 +116,7 @@ desc = "For Bootstrap"
 arg = "vsassets.io"
 blocked = true
 desc = "For VSCode"
+
 
 # General::Tool
 [[rules]]
@@ -163,6 +167,7 @@ desc = "For Firefox"
 arg = "archive.mozilla.org"
 desc = "For Firefox"
 
+
 # General::Entertainment
 [[rules]]
 arg = "tiktok.com"
@@ -211,6 +216,7 @@ desc = "For Tomtoc"
 arg = "bsky.app"
 blocked = true
 desc = "For Bluesky Social"
+
 
 # General::AI
 [[rules]]
@@ -270,6 +276,7 @@ arg = "openart.ai"
 blocked = true
 desc = "For OpenArt AI"
 
+
 # General::Programming
 [[rules]]
 arg = "unpkg.com"
@@ -326,6 +333,7 @@ desc = "For uv"
 arg = "python.org"
 desc = "For Python"
 
+
 # Game::General
 [[rules]]
 arg = "mod.io"
@@ -350,6 +358,7 @@ desc = "For VRChat"
 arg = "satisfactory-calculator.com"
 desc = "For Satisfactory"
 
+
 # Game::Nintendo
 [[rules]]
 arg = "nintendo.net"
@@ -360,6 +369,12 @@ desc = "For Nintendo"
 arg = "sendou.ink"
 desc = "For Splatoon"
 
+[[ruoles]]
+arg = "nookea.com"
+blocked = true
+desc = "For Animal Crossing"
+
+
 # Game::FF14
 [[rules]]
 arg = "xivanalysis.com"
@@ -369,6 +384,7 @@ desc = "For FF14 XIVAnalysis"
 [[rules]]
 arg = "universalis.app"
 desc = "For FF14 Universalis"
+
 
 # Game::Star Citizen
 [[rules]]
@@ -401,6 +417,7 @@ arg = "uexcorp.space"
 desc = "For Star Citizen"
 blocked = true
 
+
 # Game::Blizzard
 [[rules]]
 arg = "d2jsp.org"
@@ -421,6 +438,7 @@ desc = "For Blizzard"
 [[rules]]
 arg = "heroesprofile.com"
 desc = "For Heroes of the Storm"
+
 
 # Game::Epic
 [[rules]]
