@@ -1,4 +1,4 @@
-# Version 1.2.4
+# Version 1.2.5
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
