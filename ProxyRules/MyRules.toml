@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.2.2"
+version = "1.2.3"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
