@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.2.5"
+version = "1.2.6"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -288,8 +288,25 @@ blocked = true
 desc = "For Docker"
 
 [[rules]]
-arg = "githubusercontent.com"
+arg = "github.com"
 desc = "For GitHub"
+
+[[rules]]
+arg = "github.io"
+desc = "For GitHub"
+
+[[rules]]
+arg = "githubusercontent.com"
+blocked = true
+desc = "For GitHub"
+
+[[rules]]
+arg = "githubassets.com"
+desc = "For GitHub"
+
+[[rules]]
+arg = "githubcopilot.com"
+desc = "For GitHub Copilot"
 
 [[rules]]
 arg = "wireshark.org"
