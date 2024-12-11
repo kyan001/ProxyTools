@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.2.6
+#!version=1.2.7
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -74,6 +74,7 @@ DOMAIN-SUFFIX, gitbook.io, PROXY  # For GitBook
 DOMAIN-SUFFIX, astral.sh, PROXY  # BLOCKED! For uv
 DOMAIN-SUFFIX, pythonhosted.org, PROXY  # For uv
 DOMAIN-SUFFIX, python.org, PROXY  # For Python
+DOMAIN-SUFFIX, idx.dev, PROXY  # For Google IDX
 DOMAIN-SUFFIX, mod.io, PROXY  # BLOCKED!
 DOMAIN-SUFFIX, nexusmods.com, PROXY  # BLOCKED! For Nexus Mods
 DOMAIN-SUFFIX, steampowered.com, PROXY  # BLOCKED! For Steam

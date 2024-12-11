@@ -1,4 +1,4 @@
-# Version 1.2.6
+# Version 1.2.7
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -71,6 +71,7 @@ payload:
   - DOMAIN-SUFFIX,astral.sh  # BLOCKED! For uv
   - DOMAIN-SUFFIX,pythonhosted.org  # For uv
   - DOMAIN-SUFFIX,python.org  # For Python
+  - DOMAIN-SUFFIX,idx.dev  # For Google IDX
   - DOMAIN-SUFFIX,mod.io  # BLOCKED!
   - DOMAIN-SUFFIX,nexusmods.com  # BLOCKED! For Nexus Mods
   - DOMAIN-SUFFIX,steampowered.com  # BLOCKED! For Steam
