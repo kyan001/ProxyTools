@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.2.6"
+version = "1.2.7"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -349,6 +349,10 @@ desc = "For uv"
 [[rules]]
 arg = "python.org"
 desc = "For Python"
+
+[[rules]]
+arg = "idx.dev"
+desc = "For Google IDX"
 
 
 # Game::General
