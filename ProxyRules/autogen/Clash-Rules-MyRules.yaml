@@ -1,4 +1,4 @@
-# Version 1.2.7
+# Version 1.2.8
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -33,6 +33,7 @@ payload:
   - PROCESS-NAME,Discord.exe  # BLOCKED! For Discord
   - DOMAIN-SUFFIX,download-installer.cdn.mozilla.net  # For Firefox
   - DOMAIN-SUFFIX,archive.mozilla.org  # For Firefox
+  - DOMAIN-SUFFIX,us2-dl.techpowerup.com  # For GPU-Z
   - DOMAIN-SUFFIX,tiktok.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,tiktokcdn.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,xmanhua.com  # BLOCKED!

@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.2.7
+#!version=1.2.8
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -36,6 +36,7 @@ DOMAIN-SUFFIX, discordstatus.com, PROXY  # BLOCKED! For Discord
 PROCESS-NAME, Discord.exe, PROXY  # BLOCKED! For Discord
 DOMAIN-SUFFIX, download-installer.cdn.mozilla.net, PROXY  # For Firefox
 DOMAIN-SUFFIX, archive.mozilla.org, PROXY  # For Firefox
+DOMAIN-SUFFIX, us2-dl.techpowerup.com, PROXY  # For GPU-Z
 DOMAIN-SUFFIX, tiktok.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, tiktokcdn.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, xmanhua.com, PROXY  # BLOCKED!
