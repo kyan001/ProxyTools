@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.2.8"
+version = "1.3.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -28,6 +28,11 @@ desc = "For Z-Library"
 [[rules]]
 arg = "z-library.sk"
 desc = "For Z-Library"
+
+[[rules]]
+arg = "fcdn.sk"
+desc = "For Z-Library"
+blocked = true
 
 [[rules]]
 arg = "bing.com"
@@ -357,6 +362,11 @@ desc = "For Python"
 [[rules]]
 arg = "idx.dev"
 desc = "For Google IDX"
+
+[[rules]]
+arg = "hello-algo.com"
+desc = "For GitHub Hello Algo Repository"
+blocked = true
 
 
 # Game::General
