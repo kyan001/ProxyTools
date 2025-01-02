@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.3.0
+#!version=1.4.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -31,6 +31,7 @@ DOMAIN-SUFFIX, gopeed.com, PROXY  # BLOCKED! For Gopeed Downloader
 DOMAIN-SUFFIX, folivora.ai, PROXY  # For BetterTouchTool
 DOMAIN-SUFFIX, discord.com, PROXY  # BLOCKED! For Discord
 DOMAIN-SUFFIX, discord.gg, PROXY  # BLOCKED! For Discord
+DOMAIN-SUFFIX, discord.media, PROXY  # BLOCKED! For Discord
 DOMAIN-SUFFIX, discordapp.com, PROXY  # BLOCKED! For Discord
 DOMAIN-SUFFIX, discordapp.net, PROXY  # BLOCKED! For Discord
 DOMAIN-SUFFIX, discordstatus.com, PROXY  # BLOCKED! For Discord

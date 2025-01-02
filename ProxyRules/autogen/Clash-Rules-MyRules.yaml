@@ -1,4 +1,4 @@
-# Version 1.3.0
+# Version 1.4.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -28,6 +28,7 @@ payload:
   - DOMAIN-SUFFIX,folivora.ai  # For BetterTouchTool
   - DOMAIN-SUFFIX,discord.com  # BLOCKED! For Discord
   - DOMAIN-SUFFIX,discord.gg  # BLOCKED! For Discord
+  - DOMAIN-SUFFIX,discord.media  # BLOCKED! For Discord
   - DOMAIN-SUFFIX,discordapp.com  # BLOCKED! For Discord
   - DOMAIN-SUFFIX,discordapp.net  # BLOCKED! For Discord
   - DOMAIN-SUFFIX,discordstatus.com  # BLOCKED! For Discord
