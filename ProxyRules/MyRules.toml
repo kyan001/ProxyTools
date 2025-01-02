@@ -53,7 +53,7 @@ desc = "For Bing"
 # General::Note Taking
 [[rules]]
 arg = "notion.vip"
-desc = "For Notion"
+desc = "For Notion Fansite"
 
 [[rules]]
 arg = "notion.so"
@@ -75,6 +75,11 @@ desc = "For Notion"
 arg = "sentry.io"
 blocked = true
 desc = "For Notion/OpenAI"
+
+[[rules]]
+arg = "heptabase.com"
+blocked = true
+desc = "For Heptabase"
 
 [[rules]]
 arg = "yazio.com"
