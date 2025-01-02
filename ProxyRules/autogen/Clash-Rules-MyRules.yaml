@@ -1,9 +1,10 @@
-# Version 1.2.8
+# Version 1.3.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
   - DOMAIN-SUFFIX,z-lib.gs  # For Z-Library
   - DOMAIN-SUFFIX,z-library.sk  # For Z-Library
+  - DOMAIN-SUFFIX,fcdn.sk  # BLOCKED! For Z-Library
   - DOMAIN-SUFFIX,bing.com  # REDIRECTED! For Bing
   - DOMAIN-SUFFIX,bingapis.com  # BLOCKED! For Bing
   - DOMAIN-SUFFIX,notion.vip  # For Notion
@@ -73,6 +74,7 @@ payload:
   - DOMAIN-SUFFIX,pythonhosted.org  # For uv
   - DOMAIN-SUFFIX,python.org  # For Python
   - DOMAIN-SUFFIX,idx.dev  # For Google IDX
+  - DOMAIN-SUFFIX,hello-algo.com  # BLOCKED! For GitHub Hello Algo Repository
   - DOMAIN-SUFFIX,mod.io  # BLOCKED!
   - DOMAIN-SUFFIX,nexusmods.com  # BLOCKED! For Nexus Mods
   - DOMAIN-SUFFIX,steampowered.com  # BLOCKED! For Steam
