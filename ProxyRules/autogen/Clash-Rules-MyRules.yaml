@@ -7,12 +7,13 @@ payload:
   - DOMAIN-SUFFIX,fcdn.sk  # BLOCKED! For Z-Library
   - DOMAIN-SUFFIX,bing.com  # REDIRECTED! For Bing
   - DOMAIN-SUFFIX,bingapis.com  # BLOCKED! For Bing
-  - DOMAIN-SUFFIX,notion.vip  # For Notion
+  - DOMAIN-SUFFIX,notion.vip  # For Notion Fansite
   - DOMAIN-SUFFIX,notion.so  # For Notion
   - DOMAIN-SUFFIX,notion.com  # For Notion
   - DOMAIN-SUFFIX,notion.site  # For Notion
   - DOMAIN-SUFFIX,notion-static.com  # For Notion
   - DOMAIN-SUFFIX,sentry.io  # BLOCKED! For Notion/OpenAI
+  - DOMAIN-SUFFIX,heptabase.com  # BLOCKED! For Heptabase
   - DOMAIN-SUFFIX,yazio.com  # For Yazio
   - DOMAIN-SUFFIX,digitaloceanspaces.com  # For AnyType
   - DOMAIN-SUFFIX,grid.is  # BLOCKED!

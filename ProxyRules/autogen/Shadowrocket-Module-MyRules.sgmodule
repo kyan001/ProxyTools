@@ -10,12 +10,13 @@ DOMAIN-SUFFIX, z-library.sk, PROXY  # For Z-Library
 DOMAIN-SUFFIX, fcdn.sk, PROXY  # BLOCKED! For Z-Library
 DOMAIN-SUFFIX, bing.com, PROXY  # REDIRECTED! For Bing
 DOMAIN-SUFFIX, bingapis.com, PROXY  # BLOCKED! For Bing
-DOMAIN-SUFFIX, notion.vip, PROXY  # For Notion
+DOMAIN-SUFFIX, notion.vip, PROXY  # For Notion Fansite
 DOMAIN-SUFFIX, notion.so, PROXY  # For Notion
 DOMAIN-SUFFIX, notion.com, PROXY  # For Notion
 DOMAIN-SUFFIX, notion.site, PROXY  # For Notion
 DOMAIN-SUFFIX, notion-static.com, PROXY  # For Notion
 DOMAIN-SUFFIX, sentry.io, PROXY  # BLOCKED! For Notion/OpenAI
+DOMAIN-SUFFIX, heptabase.com, PROXY  # BLOCKED! For Heptabase
 DOMAIN-SUFFIX, yazio.com, PROXY  # For Yazio
 DOMAIN-SUFFIX, digitaloceanspaces.com, PROXY  # For AnyType
 DOMAIN-SUFFIX, grid.is, PROXY  # BLOCKED!
