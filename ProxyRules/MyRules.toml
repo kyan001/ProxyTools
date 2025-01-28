@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.5.0"
+version = "1.6.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -330,6 +330,11 @@ desc = "For GitHub"
 [[rules]]
 arg = "githubcopilot.com"
 desc = "For GitHub Copilot"
+
+[[rules]]
+arg = "scoop.sh"
+desc = "For Scoop"
+blocked = true
 
 [[rules]]
 arg = "wireshark.org"
