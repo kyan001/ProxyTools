@@ -43,11 +43,12 @@ DOMAIN-SUFFIX, archive.mozilla.org, PROXY  # For Firefox
 DOMAIN-SUFFIX, us2-dl.techpowerup.com, PROXY  # For GPU-Z
 DOMAIN-SUFFIX, tiktok.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, tiktokcdn.com, PROXY  # BLOCKED! For TikTok
-DOMAIN-SUFFIX, xmanhua.com, PROXY  # BLOCKED!
-DOMAIN-KEYWORD, issa, PROXY
-DOMAIN-SUFFIX, urri, PROXY  # For issa
-DOMAIN-KEYWORD, 5yy, PROXY  # BLOCKED!
-DOMAIN-KEYWORD, ingpinz, PROXY  # BLOCKED! For 5yy
+DOMAIN-SUFFIX, xmanhua.com, PROXY  # BLOCKED! For XManhua
+DOMAIN-SUFFIX, mangafuna.xyz, PROXY  # For Venera
+DOMAIN-KEYWORD, missa, PROXY
+DOMAIN-KEYWORD, surrit, PROXY  # For missa
+DOMAIN-SUFFIX, p5yy.com, PROXY  # BLOCKED!
+DOMAIN-KEYWORD, ingpinz, PROXY  # BLOCKED! For p5yy
 DOMAIN-SUFFIX, x.com, PROXY  # BLOCKED! For Twitter
 DOMAIN-SUFFIX, tomtoc.com, PROXY  # BLOCKED! For Tomtoc
 DOMAIN-SUFFIX, bsky.app, PROXY  # BLOCKED! For Bluesky Social

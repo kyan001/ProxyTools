@@ -40,11 +40,12 @@ payload:
   - DOMAIN-SUFFIX,us2-dl.techpowerup.com  # For GPU-Z
   - DOMAIN-SUFFIX,tiktok.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,tiktokcdn.com  # BLOCKED! For TikTok
-  - DOMAIN-SUFFIX,xmanhua.com  # BLOCKED!
-  - DOMAIN-KEYWORD,issa
-  - DOMAIN-SUFFIX,urri  # For issa
-  - DOMAIN-KEYWORD,5yy  # BLOCKED!
-  - DOMAIN-KEYWORD,ingpinz  # BLOCKED! For 5yy
+  - DOMAIN-SUFFIX,xmanhua.com  # BLOCKED! For XManhua
+  - DOMAIN-SUFFIX,mangafuna.xyz  # For Venera
+  - DOMAIN-KEYWORD,missa
+  - DOMAIN-KEYWORD,surrit  # For missa
+  - DOMAIN-SUFFIX,p5yy.com  # BLOCKED!
+  - DOMAIN-KEYWORD,ingpinz  # BLOCKED! For p5yy
   - DOMAIN-SUFFIX,x.com  # BLOCKED! For Twitter
   - DOMAIN-SUFFIX,tomtoc.com  # BLOCKED! For Tomtoc
   - DOMAIN-SUFFIX,bsky.app  # BLOCKED! For Bluesky Social
