@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.5.0"
+version = "1.6.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -205,25 +205,30 @@ desc = "For TikTok"
 [[rules]]
 arg = "xmanhua.com"
 blocked = true
+desc = "For XManhua"
+
+[[rules]]
+arg = "mangafuna.xyz"
+desc = "For Venera"
 
 [[rules]]
 type = "DOMAIN-KEYWORD"
-arg = "issa"
-
-[[rules]]
-arg = "urri"
-desc = "For issa"
+arg = "missa"
 
 [[rules]]
 type = "DOMAIN-KEYWORD"
-arg = "5yy"
+arg = "surrit"
+desc = "For missa"
+
+[[rules]]
+arg = "p5yy.com"
 blocked = true
 
 [[rules]]
 type = "DOMAIN-KEYWORD"
 arg = "ingpinz"
 blocked = true
-desc = "For 5yy"
+desc = "For p5yy"
 
 [[rules]]
 arg = "x.com"
