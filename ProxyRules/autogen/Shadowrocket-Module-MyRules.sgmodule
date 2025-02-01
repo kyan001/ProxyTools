@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.5.0
+#!version=1.6.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -69,6 +69,7 @@ DOMAIN-SUFFIX, github.io, PROXY  # For GitHub
 DOMAIN-SUFFIX, githubusercontent.com, PROXY  # BLOCKED! For GitHub
 DOMAIN-SUFFIX, githubassets.com, PROXY  # For GitHub
 DOMAIN-SUFFIX, githubcopilot.com, PROXY  # For GitHub Copilot
+DOMAIN-SUFFIX, scoop.sh, PROXY  # BLOCKED! For Scoop
 DOMAIN-SUFFIX, wireshark.org, PROXY  # BLOCKED! For Wireshark
 DOMAIN-SUFFIX, starship.rs, PROXY  # For Starship Prompt
 DOMAIN-SUFFIX, readthedocs.io, PROXY  # For ReadTheDocs

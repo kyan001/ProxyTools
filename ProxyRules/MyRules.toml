@@ -337,6 +337,11 @@ arg = "githubcopilot.com"
 desc = "For GitHub Copilot"
 
 [[rules]]
+arg = "scoop.sh"
+desc = "For Scoop"
+blocked = true
+
+[[rules]]
 arg = "wireshark.org"
 blocked = true
 desc = "For Wireshark"

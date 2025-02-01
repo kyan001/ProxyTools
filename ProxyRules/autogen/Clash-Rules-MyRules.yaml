@@ -1,4 +1,4 @@
-# Version 1.5.0
+# Version 1.6.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -66,6 +66,7 @@ payload:
   - DOMAIN-SUFFIX,githubusercontent.com  # BLOCKED! For GitHub
   - DOMAIN-SUFFIX,githubassets.com  # For GitHub
   - DOMAIN-SUFFIX,githubcopilot.com  # For GitHub Copilot
+  - DOMAIN-SUFFIX,scoop.sh  # BLOCKED! For Scoop
   - DOMAIN-SUFFIX,wireshark.org  # BLOCKED! For Wireshark
   - DOMAIN-SUFFIX,starship.rs  # For Starship Prompt
   - DOMAIN-SUFFIX,readthedocs.io  # For ReadTheDocs
