@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.6.0"
+version = "1.7.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -48,6 +48,11 @@ desc = "For Bing"
 arg = "bingapis.com"
 blocked = true
 desc = "For Bing"
+
+[[rules]]
+arg = "readest.com"
+blocked = true
+desc = "For Readest"
 
 
 # General::Note Taking
