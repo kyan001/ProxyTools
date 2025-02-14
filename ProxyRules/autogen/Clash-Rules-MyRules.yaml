@@ -1,4 +1,4 @@
-# Version 1.6.0
+# Version 1.7.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -7,6 +7,7 @@ payload:
   - DOMAIN-SUFFIX,fcdn.sk  # BLOCKED! For Z-Library
   - DOMAIN-SUFFIX,bing.com  # REDIRECTED! For Bing
   - DOMAIN-SUFFIX,bingapis.com  # BLOCKED! For Bing
+  - DOMAIN-SUFFIX,readest.com  # BLOCKED! For Readest
   - DOMAIN-SUFFIX,notion.vip  # For Notion Fansite
   - DOMAIN-SUFFIX,notion.so  # For Notion
   - DOMAIN-SUFFIX,notion.com  # For Notion
