@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.8.0"
+version = "1.9.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -181,7 +181,7 @@ desc = "For Discord"
 type = "PROCESS-NAME"
 arg = "Discord.exe"
 blocked = true
-desc = "For Discord"
+desc = "For Discord on Windows"
 
 [[rules]]
 arg = "download-installer.cdn.mozilla.net"
@@ -199,6 +199,12 @@ desc = "For GPU-Z"
 arg = "sm.ms"
 blocked = true
 desc = "For SM.MS"
+
+[[rules]]
+type = "PROCESS-NAME"
+arg = "zed.exe"
+blocked = true
+desc = "For Zed on Windows"
 
 
 # General::Entertainment
