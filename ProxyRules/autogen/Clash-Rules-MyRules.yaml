@@ -1,4 +1,4 @@
-# Version 1.7.0
+# Version 1.9.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -35,10 +35,12 @@ payload:
   - DOMAIN-SUFFIX,discordapp.com  # BLOCKED! For Discord
   - DOMAIN-SUFFIX,discordapp.net  # BLOCKED! For Discord
   - DOMAIN-SUFFIX,discordstatus.com  # BLOCKED! For Discord
-  - PROCESS-NAME,Discord.exe  # BLOCKED! For Discord
+  - PROCESS-NAME,Discord.exe  # BLOCKED! For Discord on Windows
   - DOMAIN-SUFFIX,download-installer.cdn.mozilla.net  # For Firefox
   - DOMAIN-SUFFIX,archive.mozilla.org  # For Firefox
   - DOMAIN-SUFFIX,us2-dl.techpowerup.com  # For GPU-Z
+  - DOMAIN-SUFFIX,sm.ms  # BLOCKED! For SM.MS
+  - PROCESS-NAME,zed.exe  # BLOCKED! For Zed on Windows
   - DOMAIN-SUFFIX,tiktok.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,tiktokcdn.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,xmanhua.com  # BLOCKED! For XManhua
