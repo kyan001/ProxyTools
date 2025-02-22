@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.7.0"
+version = "1.8.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -194,6 +194,11 @@ desc = "For Firefox"
 [[rules]]
 arg = "us2-dl.techpowerup.com"
 desc = "For GPU-Z"
+
+[[rules]]
+arg = "sm.ms"
+blocked = true
+desc = "For SM.MS"
 
 
 # General::Entertainment
