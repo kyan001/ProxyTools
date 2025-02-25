@@ -33,6 +33,9 @@ class RuleSet:
             if not rule.get('arg'):
                 cit.warn(f"Skipped! Rule has no argument: {rule}")
                 continue
+            if not rule['enabled']:
+                cit.warn(f"Skipped! Rule is disabled: {rule}")
+                continue
             if rule['policy'] != "PROXY":
                 cit.warn(f"Skipped! Rule policy is not `PROXY`: {rule}")
                 continue
