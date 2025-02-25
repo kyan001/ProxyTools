@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "2.0.0"
+version = "2.1.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -202,6 +202,11 @@ blocked = true
 desc = "For SM.MS"
 
 [[rules]]
+arg = "s2.loli.net"
+blocked = true
+desc = "For SM.MS"
+
+[[rules]]
 type = "PROCESS-NAME"
 arg = "zed.exe"
 blocked = true
@@ -356,6 +361,7 @@ desc = "For GitHub Copilot"
 [[rules]]
 arg = "ghcr.io"
 desc = "For GitHub Container Registry"
+enabled = false
 
 [[rules]]
 arg = "scoop.sh"
