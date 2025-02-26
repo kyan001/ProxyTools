@@ -1,4 +1,4 @@
-# Version 1.9.0
+# Version 1.10.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -40,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,archive.mozilla.org  # For Firefox
   - DOMAIN-SUFFIX,us2-dl.techpowerup.com  # For GPU-Z
   - DOMAIN-SUFFIX,sm.ms  # BLOCKED! For SM.MS
+  - DOMAIN-SUFFIX,s2.loli.net  # BLOCKED! For SM.MS
   - PROCESS-NAME,zed.exe  # BLOCKED! For Zed on Windows
   - DOMAIN-SUFFIX,tiktok.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,tiktokcdn.com  # BLOCKED! For TikTok
