@@ -26,19 +26,19 @@ class RuleSet:
             raise FileNotFoundError(f"file not found: {path}")
         with open(path, "rb") as fl:
             toml_data = tomllib.load(fl)
-        default = toml_data['default']
+        default = toml_data.get('default') or {}
         count = 0
-        for r in toml_data['rules']:
+        for r in toml_data.get('rules') or []:
             rule = {**default, **r}  # kv in r overwrites kv in default
             if not rule.get('arg'):
                 cit.warn(f"Skipped! Rule has no argument: {rule}")
                 continue
-            if rule['policy'] != "PROXY":
-                cit.warn(f"Skipped! Rule policy is not `PROXY`: {rule}")
+            if rule['policy'] not in ["PROXY", "DIRECT"]:
+                cit.warn(f"Skipped! Rule policy is not supported: {rule}")
                 continue
             count += 1
             self.rules.append(rule)
-        self.version = toml_data['version']
+        self.version = toml_data.get('version') or "Unknown"
         cit.info(f"{count}/{len(toml_data['rules'])} rules loaded. Version {self.version}")
 
     @staticmethod
@@ -60,6 +60,9 @@ class RuleSet:
             "payload:"
         ]
         for rule in self.rules:
+            if rule['policy'] != "PROXY":  # Clash ruleset can only be assigned a certain policy, which is usually `PROXY`
+                cit.warn(f"Skipped! Rule policy is not `PROXY`: {rule}")
+                continue
             text = f"  - {rule['type']},{rule['arg']}"
             comment = self.rule_comment(rule)
             if comment:
@@ -76,6 +79,9 @@ class RuleSet:
             "[Rule]"
         ]
         for rule in self.rules:
+            if rule['policy'] != "PROXY":
+                cit.warn(f"Skipped! Rule policy is not `PROXY`: {rule}")
+                continue
             text = f"{rule['type']}, {rule['arg']}, {rule['policy']}"
             comment = self.rule_comment(rule)
             if comment:
