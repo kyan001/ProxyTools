@@ -1,13 +1,14 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.9.0"
+version = "1.10.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
 arg = ""  # Rule Argument
-policy = "PROXY"  # Rule Policy
+policy = "PROXY"  # Rule Policy. "PROXY" | "DIRECT" | "REJECT"
 blocked = false  # Blocked by GFW
 redirected = false  # Redirected by GFW
 desc = ""  # Description
+enabled = true  # Rule Enabled
 
 
 # General::Information
@@ -201,6 +202,11 @@ blocked = true
 desc = "For SM.MS"
 
 [[rules]]
+arg = "s2.loli.net"
+blocked = true
+desc = "For SM.MS"
+
+[[rules]]
 type = "PROCESS-NAME"
 arg = "zed.exe"
 blocked = true
@@ -351,6 +357,11 @@ desc = "For GitHub"
 [[rules]]
 arg = "githubcopilot.com"
 desc = "For GitHub Copilot"
+
+[[rules]]
+arg = "ghcr.io"
+desc = "For GitHub Container Registry"
+policy = "DIRECT"
 
 [[rules]]
 arg = "scoop.sh"
