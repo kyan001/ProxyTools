@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.10.0"
+version = "1.11.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -459,6 +459,11 @@ desc = "For Splatoon"
 arg = "nookea.com"
 blocked = true
 desc = "For Animal Crossing"
+
+[[rules]]
+arg = "52poke.com"
+blocked = true
+desc = "For Pokemon Wiki"
 
 
 # Game::FF14
