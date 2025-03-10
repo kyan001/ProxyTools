@@ -1,4 +1,4 @@
-# Version 1.10.0
+# Version 1.11.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -92,6 +92,7 @@ payload:
   - DOMAIN-SUFFIX,nintendo.net  # BLOCKED! For Nintendo
   - DOMAIN-SUFFIX,sendou.ink  # For Splatoon
   - DOMAIN-SUFFIX,nookea.com  # BLOCKED! For Animal Crossing
+  - DOMAIN-SUFFIX,52poke.com  # BLOCKED! For Pokemon Wiki
   - DOMAIN-SUFFIX,xivanalysis.com  # BLOCKED! For FF14 XIVAnalysis
   - DOMAIN-SUFFIX,universalis.app  # For FF14 Universalis
   - DOMAIN-SUFFIX,play.sc  # For Star Citizen
