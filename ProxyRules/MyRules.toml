@@ -1,10 +1,10 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "2.1.0"
+version = "1.10.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
 arg = ""  # Rule Argument
-policy = "PROXY"  # Rule Policy
+policy = "PROXY"  # Rule Policy. "PROXY" | "DIRECT" | "REJECT"
 blocked = false  # Blocked by GFW
 redirected = false  # Redirected by GFW
 desc = ""  # Description
@@ -361,7 +361,7 @@ desc = "For GitHub Copilot"
 [[rules]]
 arg = "ghcr.io"
 desc = "For GitHub Container Registry"
-enabled = false
+policy = "DIRECT"
 
 [[rules]]
 arg = "scoop.sh"
