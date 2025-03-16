@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.11.0"
+version = "1.12.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -85,6 +85,11 @@ desc = "For Notion"
 arg = "sentry.io"
 blocked = true
 desc = "For Notion/OpenAI"
+
+[[rules]]
+arg = "appflowy.com"
+blocked = true
+desc = "For Appflowy"
 
 [[rules]]
 arg = "heptabase.com"
