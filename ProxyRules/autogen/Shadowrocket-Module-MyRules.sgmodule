@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.11.0
+#!version=1.12.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -18,6 +18,7 @@ DOMAIN-SUFFIX, notion.site, PROXY  # For Notion
 DOMAIN-SUFFIX, notion-static.com, PROXY  # For Notion
 DOMAIN-SUFFIX, notionusercontent.com, PROXY  # For Notion
 DOMAIN-SUFFIX, sentry.io, PROXY  # BLOCKED! For Notion/OpenAI
+DOMAIN-SUFFIX, appflowy.com, PROXY  # BLOCKED! For Appflowy
 DOMAIN-SUFFIX, heptabase.com, PROXY  # BLOCKED! For Heptabase
 DOMAIN-SUFFIX, yazio.com, PROXY  # For Yazio
 DOMAIN-SUFFIX, digitaloceanspaces.com, PROXY  # For AnyType

@@ -1,4 +1,4 @@
-# Version 1.11.0
+# Version 1.12.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -15,6 +15,7 @@ payload:
   - DOMAIN-SUFFIX,notion-static.com  # For Notion
   - DOMAIN-SUFFIX,notionusercontent.com  # For Notion
   - DOMAIN-SUFFIX,sentry.io  # BLOCKED! For Notion/OpenAI
+  - DOMAIN-SUFFIX,appflowy.com  # BLOCKED! For Appflowy
   - DOMAIN-SUFFIX,heptabase.com  # BLOCKED! For Heptabase
   - DOMAIN-SUFFIX,yazio.com  # For Yazio
   - DOMAIN-SUFFIX,digitaloceanspaces.com  # For AnyType
