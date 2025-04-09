@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.15.0"
+version = "1.15.1"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -56,7 +56,7 @@ blocked = true
 desc = "For Readest"
 
 
-# General::Note
+# General::Note-Taking
 [[rules]]
 arg = "notion.vip"
 desc = "For Notion Fansite"
@@ -224,6 +224,11 @@ desc = "For Zoom"
 [[rules]]
 arg = "zoom.us"
 blocked = true
+desc = "For Zoom"
+
+[[rules]]
+arg = "optimizely.com"
+redirected = true
 desc = "For Zoom"
 
 
