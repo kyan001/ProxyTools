@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.12.0"
+version = "1.15.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type
@@ -56,7 +56,7 @@ blocked = true
 desc = "For Readest"
 
 
-# General::Note Taking
+# General::Note
 [[rules]]
 arg = "notion.vip"
 desc = "For Notion Fansite"
@@ -216,6 +216,15 @@ type = "PROCESS-NAME"
 arg = "zed.exe"
 blocked = true
 desc = "For Zed on Windows"
+
+[[rules]]
+arg = "zoom.com"
+desc = "For Zoom"
+
+[[rules]]
+arg = "zoom.us"
+blocked = true
+desc = "For Zoom"
 
 
 # General::Entertainment
