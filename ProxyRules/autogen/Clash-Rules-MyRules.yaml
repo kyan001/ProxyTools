@@ -1,4 +1,4 @@
-# Version 1.15.1
+# Version 1.16.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -46,6 +46,7 @@ payload:
   - DOMAIN-SUFFIX,zoom.com  # For Zoom
   - DOMAIN-SUFFIX,zoom.us  # BLOCKED! For Zoom
   - DOMAIN-SUFFIX,optimizely.com  # REDIRECTED! For Zoom
+  - DOMAIN-SUFFIX,nluug.nl  # For RTSS FPS Monitor
   - DOMAIN-SUFFIX,tiktok.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,tiktokcdn.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,xmanhua.com  # BLOCKED! For XManhua

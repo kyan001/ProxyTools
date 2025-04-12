@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.15.1
+#!version=1.16.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -49,6 +49,7 @@ PROCESS-NAME, zed.exe, PROXY  # BLOCKED! For Zed on Windows
 DOMAIN-SUFFIX, zoom.com, PROXY  # For Zoom
 DOMAIN-SUFFIX, zoom.us, PROXY  # BLOCKED! For Zoom
 DOMAIN-SUFFIX, optimizely.com, PROXY  # REDIRECTED! For Zoom
+DOMAIN-SUFFIX, nluug.nl, PROXY  # For RTSS FPS Monitor
 DOMAIN-SUFFIX, tiktok.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, tiktokcdn.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, xmanhua.com, PROXY  # BLOCKED! For XManhua
