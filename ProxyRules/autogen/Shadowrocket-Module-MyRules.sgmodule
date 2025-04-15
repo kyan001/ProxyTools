@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.16.0
+#!version=1.17.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -50,6 +50,7 @@ DOMAIN-SUFFIX, zoom.com, PROXY  # For Zoom
 DOMAIN-SUFFIX, zoom.us, PROXY  # BLOCKED! For Zoom
 DOMAIN-SUFFIX, optimizely.com, PROXY  # REDIRECTED! For Zoom
 DOMAIN-SUFFIX, nluug.nl, PROXY  # For RTSS FPS Monitor
+DOMAIN-SUFFIX, canva.com, PROXY  # REDIRECTED! For Canva
 DOMAIN-SUFFIX, tiktok.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, tiktokcdn.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, xmanhua.com, PROXY  # BLOCKED! For XManhua
