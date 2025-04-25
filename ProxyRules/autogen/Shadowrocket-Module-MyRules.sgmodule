@@ -120,3 +120,5 @@ DOMAIN-SUFFIX, epicgames.com, PROXY  # BLOCKED! For Epic
 DOMAIN-SUFFIX, epicgames.dev, PROXY  # BLOCKED! For Epic
 DOMAIN-SUFFIX, epicgames.net, PROXY  # BLOCKED! For Epic
 DOMAIN-SUFFIX, unrealengine.com, PROXY  # BLOCKED! For Epic
+DOMAIN-SUFFIX, tosm.kr, PROXY  # For Tree of Savior
+PROCESS-NAME, TreeOfSaviorM.exe, PROXY  # BLOCKED! For Tree of Savior on Windows

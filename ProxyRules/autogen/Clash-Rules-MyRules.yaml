@@ -117,3 +117,5 @@ payload:
   - DOMAIN-SUFFIX,epicgames.dev  # BLOCKED! For Epic
   - DOMAIN-SUFFIX,epicgames.net  # BLOCKED! For Epic
   - DOMAIN-SUFFIX,unrealengine.com  # BLOCKED! For Epic
+  - DOMAIN-SUFFIX,tosm.kr  # For Tree of Savior
+  - PROCESS-NAME,TreeOfSaviorM.exe  # BLOCKED! For Tree of Savior on Windows
