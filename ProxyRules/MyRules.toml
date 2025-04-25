@@ -2,7 +2,7 @@
 version = "1.17.0"
 
 [default]
-type = "DOMAIN-SUFFIX"  # Rule Type
+type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
 arg = ""  # Rule Argument
 policy = "PROXY"  # Rule Policy. "PROXY" | "DIRECT" | "REJECT"
 blocked = false  # Blocked by GFW
@@ -579,3 +579,14 @@ desc = "For Epic"
 arg = "unrealengine.com"
 blocked = true
 desc = "For Epic"
+
+# Game::TreeOfSavior
+[[rules]]
+arg = "tosm.kr"
+desc = "For Tree of Savior"
+
+[[rules]]
+type = "PROCESS-NAME"
+arg = "TreeOfSaviorM.exe"
+blocked = true
+desc = "For Tree of Savior on Windows"
