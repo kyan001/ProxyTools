@@ -1,4 +1,4 @@
-# Version 1.17.0
+# Version 1.18.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -22,6 +22,7 @@ payload:
   - DOMAIN-SUFFIX,grid.is  # BLOCKED!
   - DOMAIN-SUFFIX,agilebits.com  # BLOCKED! For 1Password
   - DOMAIN-SUFFIX,calibre-ebook.com  # For Calibre
+  - DOMAIN-SUFFIX,pronotes.app  # BLOCKED! For ProNotes App
   - DOMAIN-SUFFIX,amazonaws.com  # BLOCKED!
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,hcaptcha.com
