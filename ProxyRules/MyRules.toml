@@ -117,6 +117,11 @@ desc = "For 1Password"
 arg = "calibre-ebook.com"
 desc = "For Calibre"
 
+[[rules]]
+arg = "pronotes.app"
+blocked = true
+desc = "For ProNotes App"
+
 
 # General::Cloud
 [[rules]]
