@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.18.0"
+version = "1.19.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -539,6 +539,11 @@ blocked = true
 [[rules]]
 arg = "uexcorp.space"
 desc = "For Star Citizen"
+blocked = true
+
+[[rules]]
+arg = "citizenwiki.cn"
+desc = "For Star Citizen Wiki CN"
 blocked = true
 
 
