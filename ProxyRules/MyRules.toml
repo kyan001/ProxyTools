@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.19.0"
+version = "1.21.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -476,6 +476,11 @@ desc = "For VRChat"
 [[rules]]
 arg = "satisfactory-calculator.com"
 desc = "For Satisfactory"
+
+[[rules]]
+arg = "icy-veins.com"
+blocked = true
+desc = "For Icy Veins"
 
 
 # Game::Nintendo
