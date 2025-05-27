@@ -1,4 +1,4 @@
-# Version 1.19.0
+# Version 1.21.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -96,6 +96,7 @@ payload:
   - DOMAIN-SUFFIX,steampowered.com  # BLOCKED! For Steam
   - DOMAIN-SUFFIX,vrchat.com  # BLOCKED! For VRChat
   - DOMAIN-SUFFIX,satisfactory-calculator.com  # For Satisfactory
+  - DOMAIN-SUFFIX,icy-veins.com  # BLOCKED! For Icy Veins
   - DOMAIN-SUFFIX,nintendo.net  # BLOCKED! For Nintendo
   - DOMAIN-SUFFIX,sendou.ink  # For Splatoon
   - DOMAIN-SUFFIX,nookea.com  # BLOCKED! For Animal Crossing
