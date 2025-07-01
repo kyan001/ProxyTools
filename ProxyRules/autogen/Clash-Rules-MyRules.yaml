@@ -1,4 +1,4 @@
-# Version 1.21.0
+# Version 1.22.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -55,6 +55,7 @@ payload:
   - DOMAIN-SUFFIX,mangafuna.xyz  # For Venera
   - DOMAIN-KEYWORD,missa
   - DOMAIN-KEYWORD,surrit  # For missa
+  - DOMAIN-SUFFIX,plyr.io  # BLOCKED! For Plyr Media Player
   - DOMAIN-SUFFIX,p5yy.com  # BLOCKED!
   - DOMAIN-KEYWORD,ingpinz  # BLOCKED! For p5yy
   - DOMAIN-SUFFIX,x.com  # BLOCKED! For Twitter
