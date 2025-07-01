@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.21.0"
+version = "1.22.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -274,6 +274,11 @@ arg = "missa"
 type = "DOMAIN-KEYWORD"
 arg = "surrit"
 desc = "For missa"
+
+[[rules]]
+arg = "plyr.io"
+blocked = true
+desc = "For Plyr Media Player"
 
 [[rules]]
 arg = "p5yy.com"
