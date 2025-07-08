@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.22.0"
+version = "1.23.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -28,6 +28,11 @@ desc = "For Z-Library"
 
 [[rules]]
 arg = "z-library.sk"
+desc = "For Z-Library"
+
+[[rules]]
+arg = "go-to-library.sk"
+blocked = true
 desc = "For Z-Library"
 
 [[rules]]
