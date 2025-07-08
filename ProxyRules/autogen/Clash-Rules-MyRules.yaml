@@ -1,9 +1,10 @@
-# Version 1.22.0
+# Version 1.23.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
   - DOMAIN-SUFFIX,z-lib.gs  # For Z-Library
   - DOMAIN-SUFFIX,z-library.sk  # For Z-Library
+  - DOMAIN-SUFFIX,go-to-library.sk  # BLOCKED! For Z-Library
   - DOMAIN-SUFFIX,fcdn.sk  # BLOCKED! For Z-Library
   - DOMAIN-SUFFIX,bing.com  # REDIRECTED! For Bing
   - DOMAIN-SUFFIX,bingapis.com  # BLOCKED! For Bing

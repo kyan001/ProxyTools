@@ -1,12 +1,13 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.22.0
+#!version=1.23.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
 DOMAIN-SUFFIX, clash.wiki, PROXY  # BLOCKED! For Clash Wiki
 DOMAIN-SUFFIX, z-lib.gs, PROXY  # For Z-Library
 DOMAIN-SUFFIX, z-library.sk, PROXY  # For Z-Library
+DOMAIN-SUFFIX, go-to-library.sk, PROXY  # BLOCKED! For Z-Library
 DOMAIN-SUFFIX, fcdn.sk, PROXY  # BLOCKED! For Z-Library
 DOMAIN-SUFFIX, bing.com, PROXY  # REDIRECTED! For Bing
 DOMAIN-SUFFIX, bingapis.com, PROXY  # BLOCKED! For Bing
