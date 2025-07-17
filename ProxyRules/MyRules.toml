@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.23.0"
+version = "1.24.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -126,6 +126,11 @@ desc = "For Calibre"
 arg = "pronotes.app"
 blocked = true
 desc = "For ProNotes App"
+
+[[rules]]
+arg = "pystyle.info"
+blocked = true
+desc = "For Pystyle Mahjong Apps"
 
 
 # General::Cloud
