@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.23.0
+#!version=1.24.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -27,6 +27,7 @@ DOMAIN-SUFFIX, grid.is, PROXY  # BLOCKED!
 DOMAIN-SUFFIX, agilebits.com, PROXY  # BLOCKED! For 1Password
 DOMAIN-SUFFIX, calibre-ebook.com, PROXY  # For Calibre
 DOMAIN-SUFFIX, pronotes.app, PROXY  # BLOCKED! For ProNotes App
+DOMAIN-SUFFIX, pystyle.info, PROXY  # BLOCKED! For Pystyle Mahjong Apps
 DOMAIN-SUFFIX, amazonaws.com, PROXY  # BLOCKED!
 DOMAIN-SUFFIX, cloudflare.com, PROXY
 DOMAIN-SUFFIX, hcaptcha.com, PROXY
