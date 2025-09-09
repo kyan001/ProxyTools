@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.25.0"
+version = "1.25.1"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -575,6 +575,7 @@ blocked = true
 [[rules]]
 arg = "d2jsp.org"
 desc = "For Diablo 2"
+policy = "DIRECT"
 
 [[rules]]
 arg = "maxroll.gg"
