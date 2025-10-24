@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.25.1"
+version = "1.25.2"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -279,11 +279,6 @@ desc = "For Venera"
 [[rules]]
 type = "DOMAIN-KEYWORD"
 arg = "missa"
-
-[[rules]]
-type = "DOMAIN-KEYWORD"
-arg = "surrit"
-desc = "For missa"
 
 [[rules]]
 arg = "plyr.io"
