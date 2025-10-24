@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.25.1
+#!version=1.25.2
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -59,7 +59,6 @@ DOMAIN-SUFFIX, tiktokcdn.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, xmanhua.com, PROXY  # BLOCKED! For XManhua
 DOMAIN-SUFFIX, mangafuna.xyz, PROXY  # For Venera
 DOMAIN-KEYWORD, missa, PROXY
-DOMAIN-KEYWORD, surrit, PROXY  # For missa
 DOMAIN-SUFFIX, plyr.io, PROXY  # BLOCKED! For Plyr Media Player
 DOMAIN-SUFFIX, p5yy.com, PROXY  # BLOCKED!
 DOMAIN-KEYWORD, ingpinz, PROXY  # BLOCKED! For p5yy
