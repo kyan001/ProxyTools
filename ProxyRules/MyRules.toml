@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.25.2"
+version = "1.25.3"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -313,6 +313,7 @@ desc = "For Bluesky Social"
 [[rules]]
 arg = "tieba.baidu.com"
 desc = "For Baidu Tieba Fake IP"
+enabled = false
 
 
 # General::AI
