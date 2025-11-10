@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.25.3"
+version = "1.26.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -8,7 +8,7 @@ policy = "PROXY"  # Rule Policy. "PROXY" | "DIRECT" | "REJECT"
 blocked = false  # Blocked by GFW
 redirected = false  # Redirected by GFW
 desc = ""  # Description
-enabled = true  # Rule Enabled
+disabled = false  # Rule Disabled
 
 
 # General::Information
@@ -313,7 +313,7 @@ desc = "For Bluesky Social"
 [[rules]]
 arg = "tieba.baidu.com"
 desc = "For Baidu Tieba Fake IP"
-enabled = false
+disabled = true
 
 
 # General::AI

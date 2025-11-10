@@ -36,6 +36,9 @@ class RuleSet:
             if rule['policy'] not in ["PROXY", "DIRECT"]:
                 cit.warn(f"Skipped! Rule policy is not supported: {rule}")
                 continue
+            if rule['disabled'] is True:
+                cit.warn(f"Skipped! Rule is disabled: {rule}")
+                continue
             count += 1
             self.rules.append(rule)
         self.version = toml_data.get('version') or "Unknown"
