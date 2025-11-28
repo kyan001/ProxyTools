@@ -1,4 +1,4 @@
-# Version 1.26.0
+# Version 1.27.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -113,6 +113,7 @@ payload:
   - DOMAIN-SUFFIX,erkul.games  # BLOCKED! For Star Citizen
   - DOMAIN-SUFFIX,uexcorp.space  # BLOCKED! For Star Citizen
   - DOMAIN-SUFFIX,citizenwiki.cn  # BLOCKED! For Star Citizen Wiki CN
+  - DOMAIN-SUFFIX,spviewer.eu  # For Star Citizen Ships Performances Viewer
   - DOMAIN-SUFFIX,maxroll.gg  # For Diablo/Last Epoch
   - DOMAIN-SUFFIX,planner-assets.com  # For Diablo
   - DOMAIN-SUFFIX,battle.net  # For Blizzard
