@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.26.0"
+version = "1.27.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -565,6 +565,10 @@ blocked = true
 arg = "citizenwiki.cn"
 desc = "For Star Citizen Wiki CN"
 blocked = true
+
+[[rules]]
+arg = "spviewer.eu"
+desc = "For Star Citizen Ships Performances Viewer"
 
 
 # Game::Blizzard
