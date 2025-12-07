@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.27.0"
+version = "1.27.1"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -477,6 +477,7 @@ blocked = true
 arg = "nexusmods.com"
 blocked = true
 desc = "For Nexus Mods"
+policy = "DIRECT"
 
 [[rules]]
 arg = "steampowered.com"
