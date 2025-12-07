@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.27.0
+#!version=1.27.1
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -97,7 +97,6 @@ DOMAIN-SUFFIX, python.org, PROXY  # For Python
 DOMAIN-SUFFIX, idx.dev, PROXY  # For Google IDX
 DOMAIN-SUFFIX, hello-algo.com, PROXY  # BLOCKED! For GitHub Hello Algo Repository
 DOMAIN-SUFFIX, mod.io, PROXY  # BLOCKED!
-DOMAIN-SUFFIX, nexusmods.com, PROXY  # BLOCKED! For Nexus Mods
 DOMAIN-SUFFIX, steampowered.com, PROXY  # BLOCKED! For Steam
 DOMAIN-SUFFIX, vrchat.com, PROXY  # BLOCKED! For VRChat
 DOMAIN-SUFFIX, satisfactory-calculator.com, PROXY  # For Satisfactory
