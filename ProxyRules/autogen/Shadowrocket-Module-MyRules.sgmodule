@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.27.1
+#!version=1.28.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -107,6 +107,7 @@ DOMAIN-SUFFIX, nookea.com, PROXY  # BLOCKED! For Animal Crossing
 DOMAIN-SUFFIX, 52poke.com, PROXY  # BLOCKED! For Pokemon Wiki
 DOMAIN-SUFFIX, xivanalysis.com, PROXY  # BLOCKED! For FF14 XIVAnalysis
 DOMAIN-SUFFIX, universalis.app, PROXY  # For FF14 Universalis
+DOMAIN-SUFFIX, arrtripletriad.com, PROXY  # BLOCKED! For FF14 ARR Triple Triad
 DOMAIN-SUFFIX, play.sc, PROXY  # For Star Citizen
 DOMAIN-SUFFIX, starcitizen.tools, PROXY  # For Star Citizen Wiki
 DOMAIN-SUFFIX, sc-trade.tools, PROXY  # For Star Citizen

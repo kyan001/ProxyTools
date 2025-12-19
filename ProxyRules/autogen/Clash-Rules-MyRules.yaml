@@ -1,4 +1,4 @@
-# Version 1.27.1
+# Version 1.28.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -104,6 +104,7 @@ payload:
   - DOMAIN-SUFFIX,52poke.com  # BLOCKED! For Pokemon Wiki
   - DOMAIN-SUFFIX,xivanalysis.com  # BLOCKED! For FF14 XIVAnalysis
   - DOMAIN-SUFFIX,universalis.app  # For FF14 Universalis
+  - DOMAIN-SUFFIX,arrtripletriad.com  # BLOCKED! For FF14 ARR Triple Triad
   - DOMAIN-SUFFIX,play.sc  # For Star Citizen
   - DOMAIN-SUFFIX,starcitizen.tools  # For Star Citizen Wiki
   - DOMAIN-SUFFIX,sc-trade.tools  # For Star Citizen
