@@ -1,4 +1,4 @@
-# Version 1.28.0
+# Version 1.29.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
@@ -62,8 +62,6 @@ payload:
   - DOMAIN-SUFFIX,x.com  # BLOCKED! For Twitter
   - DOMAIN-SUFFIX,tomtoc.com  # BLOCKED! For Tomtoc
   - DOMAIN-SUFFIX,bsky.app  # BLOCKED! For Bluesky Social
-  - IP-CIDR,13.107.21.0/8  # BLOCKED! For Bing AI
-  - IP-CIDR,204.79.197.0/24  # BLOCKED! For Bing AI
   - DOMAIN-SUFFIX,openai.com  # REDIRECTED! For OpenAI
   - DOMAIN-SUFFIX,openai.io  # REDIRECTED! For OpenAI
   - DOMAIN-SUFFIX,civitai.com  # BLOCKED! For Civit AI
