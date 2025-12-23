@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.28.0"
+version = "1.29.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -317,18 +317,6 @@ disabled = true
 
 
 # General::AI
-[[rules]]
-type = "IP-CIDR"
-arg = "13.107.21.0/8"
-blocked = true
-desc = "For Bing AI"
-
-[[rules]]
-type = "IP-CIDR"
-arg = "204.79.197.0/24"
-blocked = true
-desc = "For Bing AI"
-
 [[rules]]
 arg = "openai.com"
 redirected = true
