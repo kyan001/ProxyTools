@@ -1,6 +1,7 @@
-# Version 1.29.0
+# Version 1.30.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
+  - DOMAIN-SUFFIX,.google  # BLOCKED! For Google
   - DOMAIN-SUFFIX,clash.wiki  # BLOCKED! For Clash Wiki
   - DOMAIN-SUFFIX,z-lib.gs  # For Z-Library
   - DOMAIN-SUFFIX,z-library.sk  # For Z-Library
