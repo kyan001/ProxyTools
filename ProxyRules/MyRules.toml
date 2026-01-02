@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.29.0"
+version = "1.30.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -14,6 +14,11 @@ disabled = false  # Rule Disabled
 # General::Information
 [[rules]]
 arg = "google.com"
+blocked = true
+desc = "For Google"
+
+[[rules]]
+arg = ".google"
 blocked = true
 desc = "For Google"
 
