@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.30.0
+#!version=1.30.1
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -60,6 +60,7 @@ DOMAIN-SUFFIX, tiktokcdn.com, PROXY  # BLOCKED! For TikTok
 DOMAIN-SUFFIX, xmanhua.com, PROXY  # BLOCKED! For XManhua
 DOMAIN-SUFFIX, mangafuna.xyz, PROXY  # For Venera
 DOMAIN-KEYWORD, missa, PROXY
+DOMAIN-KEYWORD, urrit, PROXY
 DOMAIN-SUFFIX, plyr.io, PROXY  # BLOCKED! For Plyr Media Player
 DOMAIN-SUFFIX, p5yy.com, PROXY  # BLOCKED!
 DOMAIN-KEYWORD, ingpinz, PROXY  # BLOCKED! For p5yy
@@ -120,9 +121,5 @@ DOMAIN-SUFFIX, maxroll.gg, PROXY  # For Diablo/Last Epoch
 DOMAIN-SUFFIX, planner-assets.com, PROXY  # For Diablo
 DOMAIN-SUFFIX, battle.net, PROXY  # For Blizzard
 DOMAIN-SUFFIX, heroesprofile.com, PROXY  # For Heroes of the Storm
-DOMAIN-SUFFIX, epicgames.com, PROXY  # BLOCKED! For Epic
-DOMAIN-SUFFIX, epicgames.dev, PROXY  # BLOCKED! For Epic
-DOMAIN-SUFFIX, epicgames.net, PROXY  # BLOCKED! For Epic
-DOMAIN-SUFFIX, unrealengine.com, PROXY  # BLOCKED! For Epic
 DOMAIN-SUFFIX, tosm.kr, PROXY  # For Tree of Savior
 PROCESS-NAME, TreeOfSaviorM.exe, PROXY  # BLOCKED! For Tree of Savior on Windows

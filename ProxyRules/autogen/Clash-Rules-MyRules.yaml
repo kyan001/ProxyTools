@@ -1,4 +1,4 @@
-# Version 1.30.0
+# Version 1.30.1
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,.google  # BLOCKED! For Google
@@ -57,6 +57,7 @@ payload:
   - DOMAIN-SUFFIX,xmanhua.com  # BLOCKED! For XManhua
   - DOMAIN-SUFFIX,mangafuna.xyz  # For Venera
   - DOMAIN-KEYWORD,missa
+  - DOMAIN-KEYWORD,urrit
   - DOMAIN-SUFFIX,plyr.io  # BLOCKED! For Plyr Media Player
   - DOMAIN-SUFFIX,p5yy.com  # BLOCKED!
   - DOMAIN-KEYWORD,ingpinz  # BLOCKED! For p5yy
@@ -117,9 +118,5 @@ payload:
   - DOMAIN-SUFFIX,planner-assets.com  # For Diablo
   - DOMAIN-SUFFIX,battle.net  # For Blizzard
   - DOMAIN-SUFFIX,heroesprofile.com  # For Heroes of the Storm
-  - DOMAIN-SUFFIX,epicgames.com  # BLOCKED! For Epic
-  - DOMAIN-SUFFIX,epicgames.dev  # BLOCKED! For Epic
-  - DOMAIN-SUFFIX,epicgames.net  # BLOCKED! For Epic
-  - DOMAIN-SUFFIX,unrealengine.com  # BLOCKED! For Epic
   - DOMAIN-SUFFIX,tosm.kr  # For Tree of Savior
   - PROCESS-NAME,TreeOfSaviorM.exe  # BLOCKED! For Tree of Savior on Windows
