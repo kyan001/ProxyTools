@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.30.0"
+version = "1.30.1"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -284,6 +284,10 @@ desc = "For Venera"
 [[rules]]
 type = "DOMAIN-KEYWORD"
 arg = "missa"
+
+[[rules]]
+type = "DOMAIN-KEYWORD"
+arg = "urrit"
 
 [[rules]]
 arg = "plyr.io"
@@ -596,23 +600,27 @@ desc = "For Heroes of the Storm"
 # Game::Epic
 [[rules]]
 arg = "epicgames.com"
-blocked = true
+blocked = false
 desc = "For Epic"
+disabled = true
 
 [[rules]]
 arg = "epicgames.dev"
-blocked = true
+blocked = false
 desc = "For Epic"
+disabled = true
 
 [[rules]]
 arg = "epicgames.net"
-blocked = true
+blocked = false
 desc = "For Epic"
+disabled = true
 
 [[rules]]
 arg = "unrealengine.com"
-blocked = true
+blocked = false
 desc = "For Epic"
+disabled = true
 
 # Game::TreeOfSavior
 [[rules]]
