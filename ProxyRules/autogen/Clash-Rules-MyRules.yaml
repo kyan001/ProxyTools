@@ -1,4 +1,4 @@
-# Version 1.30.1
+# Version 1.31.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,.google  # BLOCKED! For Google
@@ -10,6 +10,7 @@ payload:
   - DOMAIN-SUFFIX,bing.com  # REDIRECTED! For Bing
   - DOMAIN-SUFFIX,bingapis.com  # BLOCKED! For Bing
   - DOMAIN-SUFFIX,readest.com  # BLOCKED! For Readest
+  - DOMAIN-SUFFIX,folo.is  # BLOCKED! For Folo.is
   - DOMAIN-SUFFIX,notion.vip  # For Notion Fansite
   - DOMAIN-SUFFIX,notion.so  # For Notion
   - DOMAIN-SUFFIX,notion.com  # For Notion

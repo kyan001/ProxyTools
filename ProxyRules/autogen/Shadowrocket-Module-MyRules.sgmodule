@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.30.1
+#!version=1.31.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -13,6 +13,7 @@ DOMAIN-SUFFIX, fcdn.sk, PROXY  # BLOCKED! For Z-Library
 DOMAIN-SUFFIX, bing.com, PROXY  # REDIRECTED! For Bing
 DOMAIN-SUFFIX, bingapis.com, PROXY  # BLOCKED! For Bing
 DOMAIN-SUFFIX, readest.com, PROXY  # BLOCKED! For Readest
+DOMAIN-SUFFIX, folo.is, PROXY  # BLOCKED! For Folo.is
 DOMAIN-SUFFIX, notion.vip, PROXY  # For Notion Fansite
 DOMAIN-SUFFIX, notion.so, PROXY  # For Notion
 DOMAIN-SUFFIX, notion.com, PROXY  # For Notion
