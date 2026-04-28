@@ -1,4 +1,4 @@
-# Version 1.31.0
+# Version 1.32.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,.google  # BLOCKED! For Google
@@ -99,6 +99,7 @@ payload:
   - DOMAIN-SUFFIX,vrchat.com  # BLOCKED! For VRChat
   - DOMAIN-SUFFIX,satisfactory-calculator.com  # For Satisfactory
   - DOMAIN-SUFFIX,icy-veins.com  # BLOCKED! For Icy Veins
+  - DOMAIN-SUFFIX,officialdispatchgame.com  # BLOCKED! For Dispatch
   - DOMAIN-SUFFIX,nintendo.net  # BLOCKED! For Nintendo
   - DOMAIN-SUFFIX,sendou.ink  # For Splatoon
   - DOMAIN-SUFFIX,nookea.com  # BLOCKED! For Animal Crossing
