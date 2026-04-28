@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.31.0"
+version = "1.32.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -499,6 +499,11 @@ desc = "For Satisfactory"
 arg = "icy-veins.com"
 blocked = true
 desc = "For Icy Veins"
+
+[[rules]]
+arg = "officialdispatchgame.com"
+blocked = true
+desc = "For Dispatch"
 
 
 # Game::Nintendo
