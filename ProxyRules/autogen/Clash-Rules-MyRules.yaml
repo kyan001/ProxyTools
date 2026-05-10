@@ -1,4 +1,4 @@
-# Version 1.32.0
+# Version 1.33.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,.google  # BLOCKED! For Google
@@ -53,6 +53,7 @@ payload:
   - DOMAIN-SUFFIX,optimizely.com  # REDIRECTED! For Zoom
   - DOMAIN-SUFFIX,nluug.nl  # For RTSS FPS Monitor
   - DOMAIN-SUFFIX,canva.com  # REDIRECTED! For Canva
+  - DOMAIN-SUFFIX,ferdium.org  # BLOCKED! For Ferdium browser
   - DOMAIN-SUFFIX,tiktok.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,tiktokcdn.com  # BLOCKED! For TikTok
   - DOMAIN-SUFFIX,xmanhua.com  # BLOCKED! For XManhua
