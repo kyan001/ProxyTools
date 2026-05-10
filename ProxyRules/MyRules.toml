@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.32.0"
+version = "1.33.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -264,6 +264,11 @@ desc = "For RTSS FPS Monitor"
 arg = "canva.com"
 redirected = true
 desc = "For Canva"
+
+[[rules]]
+arg = "ferdium.org"
+blocked = true
+desc = "For Ferdium browser"
 
 
 # General::Entertainment
