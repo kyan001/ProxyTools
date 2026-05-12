@@ -1,4 +1,4 @@
-# Version 1.33.0
+# Version 1.34.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,.google  # BLOCKED! For Google
