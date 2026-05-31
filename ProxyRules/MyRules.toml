@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.34.0"
+version = "1.35.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -69,6 +69,11 @@ desc = "For Readest"
 arg = "folo.is"
 blocked = true
 desc = "For Folo.is"
+
+[[rules]]
+arg = "yoshidakaban.com"
+blocked = true
+desc = "For Yoshida Kaban"
 
 
 # General::Note-Taking
