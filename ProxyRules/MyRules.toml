@@ -391,6 +391,11 @@ arg = "openart.ai"
 blocked = true
 desc = "For OpenArt AI"
 
+[[rules]]
+arg = "jina.ai"
+blocked = true
+desc = "For Jina AI"
+
 
 # General::Programming
 [[rules]]
