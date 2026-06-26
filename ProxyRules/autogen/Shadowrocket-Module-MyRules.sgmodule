@@ -79,6 +79,7 @@ DOMAIN-SUFFIX, poe.com, PROXY  # BLOCKED! For Poe AI
 DOMAIN-SUFFIX, poecdn.net, PROXY  # BLOCKED! For Poe AI
 DOMAIN-SUFFIX, chatgpt.com, PROXY  # BLOCKED! For ChatGPT
 DOMAIN-SUFFIX, openart.ai, PROXY  # BLOCKED! For OpenArt AI
+DOMAIN-SUFFIX, jina.ai, PROXY  # BLOCKED! For Jina AI
 DOMAIN-SUFFIX, unpkg.com, PROXY  # For NPM
 DOMAIN-SUFFIX, docker.com, PROXY  # BLOCKED! For Docker
 DOMAIN-SUFFIX, github.com, PROXY  # For GitHub

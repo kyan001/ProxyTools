@@ -76,6 +76,7 @@ payload:
   - DOMAIN-SUFFIX,poecdn.net  # BLOCKED! For Poe AI
   - DOMAIN-SUFFIX,chatgpt.com  # BLOCKED! For ChatGPT
   - DOMAIN-SUFFIX,openart.ai  # BLOCKED! For OpenArt AI
+  - DOMAIN-SUFFIX,jina.ai  # BLOCKED! For Jina AI
   - DOMAIN-SUFFIX,unpkg.com  # For NPM
   - DOMAIN-SUFFIX,docker.com  # BLOCKED! For Docker
   - DOMAIN-SUFFIX,github.com  # For GitHub
