@@ -1,4 +1,4 @@
-# Version 1.35.0
+# Version 1.36.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,.google  # BLOCKED! For Google
@@ -87,6 +87,7 @@ payload:
   - DOMAIN-SUFFIX,scoop.sh  # BLOCKED! For Scoop
   - DOMAIN-SUFFIX,wireshark.org  # BLOCKED! For Wireshark
   - DOMAIN-SUFFIX,starship.rs  # For Starship Prompt
+  - DOMAIN-SUFFIX,static.rust-lang.org  # For Rust
   - DOMAIN-SUFFIX,readthedocs.io  # For ReadTheDocs
   - DOMAIN-SUFFIX,calmcode.io  # For CalmCode
   - DOMAIN-SUFFIX,zed.dev  # For Zed
