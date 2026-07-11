@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.35.0"
+version = "1.36.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -446,6 +446,10 @@ desc = "For Wireshark"
 [[rules]]
 arg = "starship.rs"
 desc = "For Starship Prompt"
+
+[[rules]]
+arg = "static.rust-lang.org"
+desc = "For Rust"
 
 [[rules]]
 arg = "readthedocs.io"
