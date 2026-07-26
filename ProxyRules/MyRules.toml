@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.36.0"
+version = "1.37.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -394,7 +394,12 @@ desc = "For OpenArt AI"
 [[rules]]
 arg = "jina.ai"
 blocked = true
-desc = "For Jina AI"
+desc = "For Jina AI (Web Extractor)"
+
+[[rules]]
+arg = "defuddle.md"
+blocked = true
+desc = "For Obsidian Defuddle (Web Extract)"
 
 
 # General::Programming
