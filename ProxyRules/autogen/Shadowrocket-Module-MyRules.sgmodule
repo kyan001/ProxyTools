@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.37.0
+#!version=1.38.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -108,6 +108,7 @@ DOMAIN-SUFFIX, vrchat.com, PROXY  # BLOCKED! For VRChat
 DOMAIN-SUFFIX, satisfactory-calculator.com, PROXY  # For Satisfactory
 DOMAIN-SUFFIX, icy-veins.com, PROXY  # BLOCKED! For Icy Veins
 DOMAIN-SUFFIX, officialdispatchgame.com, PROXY  # BLOCKED! For Dispatch
+DOMAIN-SUFFIX, ankama.com, PROXY  # BLOCKED! For Wakfu
 DOMAIN-SUFFIX, nintendo.net, PROXY  # BLOCKED! For Nintendo
 DOMAIN-SUFFIX, sendou.ink, PROXY  # For Splatoon
 DOMAIN-SUFFIX, nookea.com, PROXY  # BLOCKED! For Animal Crossing
