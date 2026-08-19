@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.38.0
+#!version=1.40.0
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -37,6 +37,7 @@ DOMAIN-SUFFIX, hcaptcha.com, PROXY
 DOMAIN-SUFFIX, recaptcha.net, PROXY
 DOMAIN-SUFFIX, bootstrapcdn.com, PROXY  # BLOCKED! For Bootstrap
 DOMAIN-SUFFIX, vsassets.io, PROXY  # BLOCKED! For VSCode
+DOMAIN-SUFFIX, tmpfiles.org, PROXY  # BLOCKED! For Tmpfiles.org
 DOMAIN-SUFFIX, gopeed.com, PROXY  # BLOCKED! For Gopeed Downloader
 DOMAIN-SUFFIX, folivora.ai, PROXY  # For BetterTouchTool
 DOMAIN-SUFFIX, discord.com, PROXY  # BLOCKED! For Discord
@@ -48,6 +49,8 @@ DOMAIN-SUFFIX, discordstatus.com, PROXY  # BLOCKED! For Discord
 PROCESS-NAME, Discord.exe, PROXY  # BLOCKED! For Discord on Windows
 DOMAIN-SUFFIX, download-installer.cdn.mozilla.net, PROXY  # For Firefox
 DOMAIN-SUFFIX, archive.mozilla.org, PROXY  # For Firefox
+DOMAIN-SUFFIX, arc.net, PROXY  # BLOCKED! For Arc Browser
+DOMAIN-SUFFIX, diabrowser.com, PROXY  # BLOCKED! For Dia Browser by Arc
 DOMAIN-SUFFIX, us2-dl.techpowerup.com, PROXY  # For GPU-Z
 DOMAIN-SUFFIX, sm.ms, PROXY  # BLOCKED! For SM.MS
 DOMAIN-SUFFIX, s2.loli.net, PROXY  # BLOCKED! For SM.MS
