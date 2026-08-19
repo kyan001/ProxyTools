@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.38.0"
+version = "1.39.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -172,7 +172,7 @@ arg = "vsassets.io"
 blocked = true
 desc = "For VSCode"
 
-[[rule]]
+[[rules]]
 arg = "tmpfiles.org"
 blocked = true
 desc = "For Tmpfiles.org"
@@ -231,6 +231,11 @@ desc = "For Firefox"
 [[rules]]
 arg = "archive.mozilla.org"
 desc = "For Firefox"
+
+[[rules]]
+arg = "arc.net"
+blocked = true
+desc = "For Arc Browser"
 
 [[rules]]
 arg = "us2-dl.techpowerup.com"
