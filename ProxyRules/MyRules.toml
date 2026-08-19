@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.39.0"
+version = "1.40.0"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -236,6 +236,11 @@ desc = "For Firefox"
 arg = "arc.net"
 blocked = true
 desc = "For Arc Browser"
+
+[[rules]]
+arg = "diabrowser.com"
+blocked = true
+desc = "For Dia Browser by Arc"
 
 [[rules]]
 arg = "us2-dl.techpowerup.com"
