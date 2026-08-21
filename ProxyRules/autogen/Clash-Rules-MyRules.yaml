@@ -1,4 +1,4 @@
-# Version 1.38.0
+# Version 1.40.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,.google  # BLOCKED! For Google
@@ -34,6 +34,7 @@ payload:
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,bootstrapcdn.com  # BLOCKED! For Bootstrap
   - DOMAIN-SUFFIX,vsassets.io  # BLOCKED! For VSCode
+  - DOMAIN-SUFFIX,tmpfiles.org  # BLOCKED! For Tmpfiles.org
   - DOMAIN-SUFFIX,gopeed.com  # BLOCKED! For Gopeed Downloader
   - DOMAIN-SUFFIX,folivora.ai  # For BetterTouchTool
   - DOMAIN-SUFFIX,discord.com  # BLOCKED! For Discord
@@ -45,6 +46,8 @@ payload:
   - PROCESS-NAME,Discord.exe  # BLOCKED! For Discord on Windows
   - DOMAIN-SUFFIX,download-installer.cdn.mozilla.net  # For Firefox
   - DOMAIN-SUFFIX,archive.mozilla.org  # For Firefox
+  - DOMAIN-SUFFIX,arc.net  # BLOCKED! For Arc Browser
+  - DOMAIN-SUFFIX,diabrowser.com  # BLOCKED! For Dia Browser by Arc
   - DOMAIN-SUFFIX,us2-dl.techpowerup.com  # For GPU-Z
   - DOMAIN-SUFFIX,sm.ms  # BLOCKED! For SM.MS
   - DOMAIN-SUFFIX,s2.loli.net  # BLOCKED! For SM.MS
