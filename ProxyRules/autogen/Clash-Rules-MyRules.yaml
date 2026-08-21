@@ -1,4 +1,4 @@
-# Version 1.40.0
+# Version 1.40.1
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,.google  # BLOCKED! For Google
@@ -121,7 +121,6 @@ payload:
   - DOMAIN-SUFFIX,sc-trade.tools  # For Star Citizen
   - DOMAIN-SUFFIX,scorg.tools  # For Star Citizen
   - DOMAIN-SUFFIX,ccugame.app  # For Star Citizen
-  - DOMAIN-SUFFIX,erkul.games  # BLOCKED! For Star Citizen
   - DOMAIN-SUFFIX,uexcorp.space  # BLOCKED! For Star Citizen
   - DOMAIN-SUFFIX,citizenwiki.cn  # BLOCKED! For Star Citizen Wiki CN
   - DOMAIN-SUFFIX,spviewer.eu  # For Star Citizen Ships Performances Viewer
