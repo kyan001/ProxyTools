@@ -1,6 +1,6 @@
 #!name=ShadowRocket My Rules
 #!desc=ShadowRocket My Rules
-#!version=1.40.0
+#!version=1.40.1
 
 [Rule]
 DOMAIN-SUFFIX, google.com, PROXY  # BLOCKED! For Google
@@ -124,7 +124,6 @@ DOMAIN-SUFFIX, starcitizen.tools, PROXY  # For Star Citizen Wiki
 DOMAIN-SUFFIX, sc-trade.tools, PROXY  # For Star Citizen
 DOMAIN-SUFFIX, scorg.tools, PROXY  # For Star Citizen
 DOMAIN-SUFFIX, ccugame.app, PROXY  # For Star Citizen
-DOMAIN-SUFFIX, erkul.games, PROXY  # BLOCKED! For Star Citizen
 DOMAIN-SUFFIX, uexcorp.space, PROXY  # BLOCKED! For Star Citizen
 DOMAIN-SUFFIX, citizenwiki.cn, PROXY  # BLOCKED! For Star Citizen Wiki CN
 DOMAIN-SUFFIX, spviewer.eu, PROXY  # For Star Citizen Ships Performances Viewer
