@@ -1,4 +1,4 @@
-# Version 1.42.0
+# Version 1.43.0
 payload:
   - DOMAIN-SUFFIX,google.com  # BLOCKED! For Google
   - DOMAIN-SUFFIX,.google  # BLOCKED! For Google
@@ -81,6 +81,7 @@ payload:
   - DOMAIN-SUFFIX,openart.ai  # BLOCKED! For OpenArt AI
   - DOMAIN-SUFFIX,jina.ai  # BLOCKED! For Jina AI (Web Extractor)
   - DOMAIN-SUFFIX,defuddle.md  # BLOCKED! For Obsidian Defuddle (Web Extract)
+  - DOMAIN-SUFFIX,typesafe.ai  # BLOCKED! For Typesafe AI (Jev)
   - DOMAIN-SUFFIX,unpkg.com  # For NPM
   - DOMAIN-SUFFIX,docker.com  # BLOCKED! For Docker
   - DOMAIN-SUFFIX,github.com  # For GitHub
