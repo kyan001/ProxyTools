@@ -1,5 +1,5 @@
 # Rule Wiki: https://clash.wiki/configuration/rules.html
-version = "1.43.0"
+version = "1.43.1"
 
 [default]
 type = "DOMAIN-SUFFIX"  # Rule Type. "DOMAIN-SUFFIX" | "PROCESS-NAME" | "DOMAIN-KEYWORD"
@@ -618,7 +618,7 @@ arg = "ccugame.app"
 desc = "For Star Citizen"
 
 [[rules]]
-policy = "DIRECT"
+#policy = "DIRECT"
 arg = "erkul.games"
 desc = "For Star Citizen"
 blocked = true
